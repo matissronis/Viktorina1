@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<style>
+body {
+  background-image: url('lv.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktorīnas spēle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="quiz-container" id="quiz">
+	<h1>Viktorīnas spēle</br>par Latviju!</h1>
+        <div id="question-container" class="question-container">
+            <div id="question">Jautājums</div>
+            <div class="answers">
+                <button class="btn" id="btn0"></button>
+                <button class="btn" id="btn1"></button>
+                <button class="btn" id="btn2"></button>
+                <button class="btn" id="btn3"></button>
+            </div>
+        </div>
+        <div id="result-container" class="result-container hide">
+            <div id="result">Jūsu rezultāts: </div>
+            <button class="btn" id="restart-btn">Atiestatīt</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
